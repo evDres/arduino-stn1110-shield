@@ -11442,6 +11442,81 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
+<library name="DE1594-v2">
+<packages>
+<package name="MICROSD_PP">
+<smd name="4" x="0" y="0.55" dx="1.8" dy="0.8" layer="1"/>
+<smd name="5" x="0" y="-0.55" dx="1.8" dy="0.8" layer="1"/>
+<smd name="6" x="0" y="-1.65" dx="1.8" dy="0.8" layer="1"/>
+<smd name="7" x="0" y="-2.75" dx="1.8" dy="0.8" layer="1"/>
+<smd name="8" x="0" y="-3.85" dx="1.8" dy="0.8" layer="1"/>
+<smd name="3" x="0" y="1.65" dx="1.8" dy="0.8" layer="1"/>
+<smd name="2" x="0" y="2.75" dx="1.8" dy="0.8" layer="1"/>
+<smd name="1" x="0" y="3.85" dx="1.8" dy="0.8" layer="1"/>
+<smd name="GND@3" x="0.6" y="-6.4" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND@2" x="10.45" y="9.75" dx="1.4" dy="2.2" layer="1" rot="R90"/>
+<smd name="9" x="0" y="-4.95" dx="1.8" dy="0.8" layer="1"/>
+<smd name="GND@1" x="0.5" y="8.5" dx="1.6" dy="1.8" layer="1"/>
+<smd name="GND@4" x="10.45" y="-6.55" dx="1.4" dy="2.2" layer="1" rot="R90"/>
+<text x="-0.8" y="10.1" size="1.27" layer="25">&gt;Name</text>
+<text x="-0.7" y="-9.1" size="1.27" layer="27">&gt;Value</text>
+<hole x="10.6" y="4.4" drill="0.8"/>
+<hole x="10.6" y="-3.6" drill="0.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ST1W008S4ER1500">
+<wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<text x="7.62" y="20.32" size="1.778" layer="95" rot="R180">&gt;Name</text>
+<text x="7.62" y="-20.32" size="1.778" layer="96" rot="MR0">&gt;Value</text>
+<pin name="NC" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="CS" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="DI" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="SCK" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="DO" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="RSV" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@1" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND@2" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND@3" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@4" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="SENSE" x="12.7" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROSD_PP">
+<gates>
+<gate name="G$1" symbol="ST1W008S4ER1500" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICROSD_PP">
+<connects>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="7"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="NC" pad="8"/>
+<connect gate="G$1" pin="RSV" pad="1"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+<connect gate="G$1" pin="SENSE" pad="9"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11507,6 +11582,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP1" library="SparkFun-Connectors" deviceset="M04" device="LOCK" value="GPS"/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U$1" library="DE1594-v2" deviceset="MICROSD_PP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11593,6 +11669,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="JP1" gate="G$1" x="-20.32" y="73.66"/>
 <instance part="SUPPLY14" gate="G$1" x="-12.7" y="78.74"/>
 <instance part="GND11" gate="1" x="-12.7" y="68.58"/>
+<instance part="U$1" gate="G$1" x="-20.32" y="17.78"/>
 </instances>
 <busses>
 </busses>
