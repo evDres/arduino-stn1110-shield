@@ -1,13 +1,13 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/zqpm7447/Documents/eagle/arduino-stn1110-shield/main.brd
+Job           : L:/Mes Documents/eagle/Arduino STN110 shield/main.brd
 
-Start at      : 14:11:21 (20/01/2014)
-End at        : 14:11:21 (20/01/2014)
+Start at      : 21:52:18 (20/01/2014)
+End at        : 21:52:18 (20/01/2014)
 Elapsed time  : 00:00:00
 
-Signals       :    33   RoutingGrid: 50 mil  Layers: 2
-Connections   :    79   predefined:  79 ( 7 Vias )
+Signals       :    35   RoutingGrid: 50 mil  Layers: 2
+Connections   :    79   predefined:  77 ( 7 Vias )
 
 Router memory :   15184
 
@@ -18,8 +18,8 @@ Number of Ripups  :         0         0         0         0         0
 max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
 
-Routed            :         0         0         0         0         0
-Vias              :         0         0         0         0         0
+Routed            :         2         2         2         2         2
+Vias              :         1         0         0         0         0
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
