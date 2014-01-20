@@ -2,14 +2,14 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/zqpm7447/Documents/eagle/arduino-stn1110-shield/main.brd
 
-Start at      : 13:47:54 (15/01/2014)
-End at        : 13:47:54 (15/01/2014)
+Start at      : 14:11:21 (20/01/2014)
+End at        : 14:11:21 (20/01/2014)
 Elapsed time  : 00:00:00
 
-Signals       :    26   RoutingGrid: 50 mil  Layers: 2
-Connections   :    64   predefined:  64 ( 1 Vias )
+Signals       :    33   RoutingGrid: 50 mil  Layers: 2
+Connections   :    79   predefined:  79 ( 7 Vias )
 
-Router memory :   14892
+Router memory :   15184
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
