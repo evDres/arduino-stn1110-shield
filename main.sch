@@ -320,26 +320,26 @@
 <text x="-20.955" y="4.445" size="1.27" layer="21">5V</text>
 <text x="-20.955" y="6.985" size="1.27" layer="21">3V3</text>
 <text x="-20.955" y="9.525" size="1.27" layer="21">RESET</text>
-<text x="-20.955" y="-8.255" size="1.27" layer="21">0</text>
-<text x="-20.955" y="-10.795" size="1.27" layer="21">1</text>
-<text x="-20.955" y="-13.335" size="1.27" layer="21">2</text>
-<text x="-20.955" y="-15.875" size="1.27" layer="21">3</text>
-<text x="-20.955" y="-18.415" size="1.27" layer="21">4</text>
-<text x="-20.955" y="-20.955" size="1.27" layer="21">5</text>
-<text x="27.305" y="-20.955" size="1.27" layer="21">0</text>
-<text x="27.305" y="-18.415" size="1.27" layer="21">1</text>
-<text x="27.305" y="-15.875" size="1.27" layer="21">2</text>
-<text x="27.305" y="-13.335" size="1.27" layer="21">3</text>
-<text x="27.305" y="-10.795" size="1.27" layer="21">4</text>
-<text x="27.305" y="-8.255" size="1.27" layer="21">5</text>
-<text x="27.305" y="-5.715" size="1.27" layer="21">6</text>
-<text x="27.305" y="-3.175" size="1.27" layer="21">7</text>
-<text x="27.305" y="0.635" size="1.27" layer="21">8</text>
-<text x="27.305" y="3.175" size="1.27" layer="21">9</text>
-<text x="27.305" y="5.715" size="1.27" layer="21">10</text>
-<text x="27.305" y="8.255" size="1.27" layer="21">11</text>
-<text x="27.305" y="10.795" size="1.27" layer="21">12</text>
-<text x="27.305" y="13.335" size="1.27" layer="21">13</text>
+<text x="-20.955" y="-7.62" size="1.016" layer="21" rot="R270">0</text>
+<text x="-20.955" y="-10.16" size="1.016" layer="21" rot="R270">1</text>
+<text x="-20.955" y="-12.7" size="1.016" layer="21" rot="R270">2</text>
+<text x="-20.955" y="-15.24" size="1.016" layer="21" rot="R270">3</text>
+<text x="-20.955" y="-17.78" size="1.016" layer="21" rot="R270">4</text>
+<text x="-20.955" y="-20.32" size="1.016" layer="21" rot="R270">5</text>
+<text x="27.94" y="-20.955" size="1.016" layer="21" rot="R90">0</text>
+<text x="27.94" y="-18.415" size="1.016" layer="21" rot="R90">1</text>
+<text x="27.94" y="-15.875" size="1.016" layer="21" rot="R90">2</text>
+<text x="27.94" y="-13.335" size="1.016" layer="21" rot="R90">3</text>
+<text x="27.94" y="-10.795" size="1.016" layer="21" rot="R90">4</text>
+<text x="27.94" y="-8.255" size="1.016" layer="21" rot="R90">5</text>
+<text x="27.94" y="-5.715" size="1.016" layer="21" rot="R90">6</text>
+<text x="27.94" y="-3.175" size="1.016" layer="21" rot="R90">7</text>
+<text x="27.94" y="0.635" size="1.016" layer="21" rot="R90">8</text>
+<text x="27.94" y="3.175" size="1.016" layer="21" rot="R90">9</text>
+<text x="27.94" y="5.715" size="1.016" layer="21" rot="R90">10</text>
+<text x="27.94" y="8.255" size="1.016" layer="21" rot="R90">11</text>
+<text x="27.94" y="10.795" size="1.016" layer="21" rot="R90">12</text>
+<text x="27.94" y="13.335" size="1.016" layer="21" rot="R90">13</text>
 <text x="20.955" y="-20.955" size="1.27" layer="21">RX</text>
 <text x="20.955" y="-18.415" size="1.27" layer="21">TX</text>
 <text x="19.05" y="-13.335" size="1.27" layer="27">PWM</text>
