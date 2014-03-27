@@ -11943,7 +11943,6 @@ Based on the following sources:
 <part name="C5" library="rcl" deviceset="C-US" device="025-024X044" value="10uF"/>
 <part name="C6" library="capacitor-wima" deviceset="C" device="2.5/2" value="1uF"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R3" library="resistor" deviceset="R-US_" device="0204/7" value="10"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R4" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -12033,7 +12032,6 @@ Based on the following sources:
 <instance part="C5" gate="G$1" x="81.28" y="147.32"/>
 <instance part="C6" gate="G$1" x="73.66" y="147.32"/>
 <instance part="GND6" gate="1" x="73.66" y="119.38"/>
-<instance part="R3" gate="G$1" x="73.66" y="167.64" rot="R90"/>
 <instance part="SUPPLY6" gate="G$1" x="73.66" y="172.72"/>
 <instance part="R4" gate="G$1" x="81.28" y="167.64" rot="R90"/>
 <instance part="SUPPLY7" gate="G$1" x="81.28" y="172.72"/>
@@ -12327,10 +12325,6 @@ Based on the following sources:
 <junction x="127" y="170.18"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
@@ -12455,8 +12449,7 @@ Based on the following sources:
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="U2" gate="A" pin="AVDD"/>
 <wire x1="73.66" y1="157.48" x2="127" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="162.56" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="172.72" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
 <junction x="73.66" y="157.48"/>
 <wire x1="73.66" y1="157.48" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
 </segment>
@@ -12480,9 +12473,9 @@ Based on the following sources:
 <junction x="279.4" y="137.16"/>
 </segment>
 <segment>
-<pinref part="ARDUINO1" gate="G$1" pin="TX_01"/>
-<wire x1="55.88" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
-<label x="58.42" y="7.62" size="1.778" layer="95" xref="yes"/>
+<pinref part="ARDUINO1" gate="G$1" pin="RX_00"/>
+<wire x1="55.88" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
+<label x="58.42" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -12492,9 +12485,9 @@ Based on the following sources:
 <label x="279.4" y="142.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO1" gate="G$1" pin="RX_00"/>
-<wire x1="55.88" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
-<label x="58.42" y="2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="ARDUINO1" gate="G$1" pin="TX_01"/>
+<wire x1="55.88" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
+<label x="58.42" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ANALOG_IN" class="0">
